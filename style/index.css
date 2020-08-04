@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&family=Righteous&family=Rowdies&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Red Rose', cursive;
+    background-color: #687C7D;
+    min-height: 100vh;
+}
+
+div.banner {
+    background-size: cover;
+    background-image: url("/assets/unsplash-tech.jpg");
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.banner header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+header a {
+    font-size: 3.6rem;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 5px 10px;
+
+}
+
+header nav {
+    margin-right: 5px;
+}
+
+header nav a {
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: whitesmoke;
+    border: 2px solid darkslategray;
+    background-color: rgba(128, 128, 128, 0.8);
+    border-radius: 14px;
+    margin: 5px;
+}
+
+div.banner h2 {
+    font-size: 2.8rem;
+    padding: 25px 15px;
+    margin: auto;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.banner div.calltoaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.banner div.calltoaction p {
+    color: whitesmoke;
+    padding: 3px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+div.banner div.calltoaction a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px 0px 10px 0px;
+    border: 2px solid darkslategray;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px;
+}
+
+div.info-cards {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 35vh;
+    margin: 2.5% auto;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    padding: 15px;
+    border: 3px solid navy;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 6px 4px darkslategray;
+}
+
+div.card h2 {
+    font-size: 2.4rem;
+}
+
+div.card img {
+    height: 500px;
+    width: auto;
+}
+
+div.card p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #653B2E;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+footer p {
+    text-align: right;
+    margin-right: 25px;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    height: 100%;
+}
+
+footer nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 10px;
+}

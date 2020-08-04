@@ -156,8 +156,9 @@ div.card h2 {
 }
 
 div.card img {
-    height: 500px;
-    width: auto;
+    max-width: 300px;
+    min-width: 100px;
+    height: auto;
 }
 
 div.card p {
